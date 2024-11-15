@@ -1,0 +1,18 @@
+local Library = loadstring(Game:HttpGet("https://raw.githubusercontent.com/bloodball/-back-ups-for-libs/main/wizard"))()
+
+local PhantomForcesWindow = Library:NewWindow("Build & Survive")
+
+local KillingCheats = PhantomForcesWindow:NewSection("main")
+
+KillingCheats:CreateButton("add money", function()
+for i = 1, 10000 do
+
+game:GetService("ReplicatedStorage").InvitePlayer:FireServer()
+
+local KillingCheats = PhantomForcesWindow:NewSection("Creator")
+
+KillingCheats:CreateButton("By Create giang_lao889", function()
+
+end
+print("HI")
+end)
